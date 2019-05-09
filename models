@@ -1,0 +1,1276 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "merlin's world",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SceneIntent",
+                    "slots": [
+                        {
+                            "name": "scene",
+                            "type": "sceneType"
+                        }
+                    ],
+                    "samples": [
+                        "{scene} alexa",
+                        "{scene} please",
+                        "alexa choose {scene}",
+                        "i pick {scene} alexa",
+                        "choose {scene}",
+                        "select {scene}",
+                        "i pick {scene}",
+                        "{scene}",
+                        "i choose {scene}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "sceneType",
+                    "values": [
+                        {
+                            "id": "110",
+                            "name": {
+                                "value": "eat the fruit",
+                                "synonyms": [
+                                    "eat witches fruit",
+                                    "eat the witches fruit",
+                                    "eat fruit",
+                                    "eat the fruit"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "109",
+                            "name": {
+                                "value": "forever underground tunnel",
+                                "synonyms": [
+                                    "enter forever underground tunnel",
+                                    "enter the forever underground tunnel",
+                                    "forever underground tunnel"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "108",
+                            "name": {
+                                "value": "follow magic chanting",
+                                "synonyms": [
+                                    "follow the magic chanting",
+                                    "follow magic chanting"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "107",
+                            "name": {
+                                "value": "hope on dragons back",
+                                "synonyms": [
+                                    "hop on to the dragons back",
+                                    "hop on the dragons back",
+                                    "hop on the dragons",
+                                    "hop onto dragons back",
+                                    "hop on dragons back"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "106",
+                            "name": {
+                                "value": "check out dragons injuries",
+                                "synonyms": [
+                                    "check out dragons injury",
+                                    "check out the dragons injuries",
+                                    "check out dragons injuries"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "105",
+                            "name": {
+                                "value": "enter this castle anyway",
+                                "synonyms": [
+                                    "enter the castle anyway",
+                                    "enter this castle anyway",
+                                    "enter castle anyway"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "104",
+                            "name": {
+                                "value": "hop into the portal",
+                                "synonyms": [
+                                    "hop on through the portal",
+                                    "hop into portal",
+                                    "hop into the portal"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "103",
+                            "name": {
+                                "value": "further into cave",
+                                "synonyms": [
+                                    "go further into cave",
+                                    "go further into the cave",
+                                    "further into cave"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "102",
+                            "name": {
+                                "value": "follow the glow",
+                                "synonyms": [
+                                    "follow glow",
+                                    "follow the glow"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "101",
+                            "name": {
+                                "value": "fly over the hills",
+                                "synonyms": [
+                                    "fly over hills",
+                                    "fly over the hills"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "100",
+                            "name": {
+                                "value": "talk sense into morgana",
+                                "synonyms": [
+                                    "talk some sense into morgana",
+                                    "talk sense into morgana"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "99",
+                            "name": {
+                                "value": "back through time machine",
+                                "synonyms": [
+                                    "back in time machine",
+                                    "back through the time machine",
+                                    "back through time machine"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "98",
+                            "name": {
+                                "value": "leave the time portal",
+                                "synonyms": [
+                                    "leave time portal",
+                                    "leave the time portal"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "97",
+                            "name": {
+                                "value": "enter time machine portal",
+                                "synonyms": [
+                                    "enter the time machine portal",
+                                    "enter time machine ",
+                                    "enter time machine portal"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "96",
+                            "name": {
+                                "value": "brave it and enter portal",
+                                "synonyms": [
+                                    "brave and enter portal",
+                                    "brave it and enter portal",
+                                    "brave it to enter the portal",
+                                    "brave it and enter the portal",
+                                    "brave it and enter portal"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "95",
+                            "name": {
+                                "value": "get the hell outta there",
+                                "synonyms": [
+                                    "get the hell out",
+                                    "get the hell out of here",
+                                    "get the hell outta there"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "94",
+                            "name": {
+                                "value": "venture into ant tunnels",
+                                "synonyms": [
+                                    "venture into ant tunnel",
+                                    "venture in the ant tunnel",
+                                    "venture into ant tunnels"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "93",
+                            "name": {
+                                "value": "leave the castle at once",
+                                "synonyms": [
+                                    "leave castle at once",
+                                    "leave the castle at once"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "92",
+                            "name": {
+                                "value": "castle portal underworld",
+                                "synonyms": [
+                                    "castle portal to the underworld",
+                                    "castle portal to underworld",
+                                    "castle portal underworld"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "91",
+                            "name": {
+                                "value": "path to hillier ground",
+                                "synonyms": [
+                                    "path to hill ground",
+                                    "path to hillier ground"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "90",
+                            "name": {
+                                "value": "path to the snow",
+                                "synonyms": [
+                                    "path to snow",
+                                    "path to the snow"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "89",
+                            "name": {
+                                "value": "follow the magic pull",
+                                "synonyms": [
+                                    "follow magic pull",
+                                    "follow the magical pull",
+                                    "follow the magic pull"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "88",
+                            "name": {
+                                "value": "follow magical pixie dust",
+                                "synonyms": [
+                                    "follow magic pixie dust",
+                                    "follow magical pixie dust",
+                                    "follow the magical pixie dust"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "87",
+                            "name": {
+                                "value": "stairs up higher in castle",
+                                "synonyms": [
+                                    "stairs up higher castle",
+                                    "stairs higher up in castle",
+                                    "stairs up higher in castle"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "86",
+                            "name": {
+                                "value": "hallway to back of castle",
+                                "synonyms": [
+                                    "hallway to the back of the castle",
+                                    "hallway to back of castle"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "85",
+                            "name": {
+                                "value": "ignore the vision",
+                                "synonyms": [
+                                    "ignore vision",
+                                    "ignore the vision"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "84",
+                            "name": {
+                                "value": "search for gilli",
+                                "synonyms": [
+                                    "search around for gilli",
+                                    "search for gilli"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "83",
+                            "name": {
+                                "value": "just keep venturing south",
+                                "synonyms": [
+                                    "just keep venturing",
+                                    "keep venturing south",
+                                    "just keep venturing south"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "82",
+                            "name": {
+                                "value": "ask blaise for his help",
+                                "synonyms": [
+                                    "ask blaise for help",
+                                    "ask blaise for his help"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "81",
+                            "name": {
+                                "value": "finished",
+                                "synonyms": [
+                                    "finished please",
+                                    "finished now",
+                                    "finish",
+                                    "finished"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "80",
+                            "name": {
+                                "value": "go another direction for key",
+                                "synonyms": [
+                                    "go another direction for key",
+                                    "go another direction for the key"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "79",
+                            "name": {
+                                "value": "enter underworld portal without key",
+                                "synonyms": [
+                                    "enter the underworld portal without key",
+                                    "enter the underworld portal without the key",
+                                    "enter underworld portal without key"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "78",
+                            "name": {
+                                "value": "look for nearby castle",
+                                "synonyms": [
+                                    "look for the nearby castle",
+                                    "look for nearby castle",
+                                    "look for a nearby castle"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "77",
+                            "name": {
+                                "value": "climb on dragons back",
+                                "synonyms": [
+                                    "climb dragons back",
+                                    "climb on the dragons back",
+                                    "climb on dragons back"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "76",
+                            "name": {
+                                "value": "take back the offer",
+                                "synonyms": [
+                                    "take back offer",
+                                    "take back the offer"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "75",
+                            "name": {
+                                "value": "submerse  inside water",
+                                "synonyms": [
+                                    "submerse in the water",
+                                    "submerse in water",
+                                    "submerse inside water"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "74",
+                            "name": {
+                                "value": "fly up to castle in sky",
+                                "synonyms": [
+                                    "fly up to castle in sky",
+                                    "fly up to castle in the sky"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "73",
+                            "name": {
+                                "value": "seek out dragon battle",
+                                "synonyms": [
+                                    "seek out the dragon battle",
+                                    "seek out dragon battle"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "62",
+                            "name": {
+                                "value": "hide before company arrives",
+                                "synonyms": [
+                                    "hide before the company arrives",
+                                    "hide before company arrives"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "61",
+                            "name": {
+                                "value": "stay and listen to your father",
+                                "synonyms": [
+                                    "stay and listen to father",
+                                    "stay to listen to your father",
+                                    "stay and listen to your father"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "72",
+                            "name": {
+                                "value": "go right away from the witch",
+                                "synonyms": [
+                                    "right away from the witch",
+                                    "go away from the witch",
+                                    "go right away from the witch"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "71",
+                            "name": {
+                                "value": "come to greet the witch",
+                                "synonyms": [
+                                    "come to greet witch",
+                                    "come over to greet the witch",
+                                    "come to greet the witch"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "70",
+                            "name": {
+                                "value": "save crystal ball for your journey",
+                                "synonyms": [
+                                    "save crystal ball for journey",
+                                    "save crystal ball",
+                                    "save crystal ball for your journey"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "69",
+                            "name": {
+                                "value": "give crystal ball to centaurs",
+                                "synonyms": [
+                                    "crystal ball to centaurs",
+                                    "give crystal ball to the centaurs",
+                                    "give crystal ball to centaurs"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "68",
+                            "name": {
+                                "value": "outsmart morgana",
+                                "synonyms": [
+                                    "outsmart morgana"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "67",
+                            "name": {
+                                "value": "lure morgana back",
+                                "synonyms": [
+                                    "lure morgana back again",
+                                    "lure morgana back"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "66",
+                            "name": {
+                                "value": "wait for morgana",
+                                "synonyms": [
+                                    "wait here for morgana",
+                                    "wait it out for morgana",
+                                    "wait for morgana"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "65",
+                            "name": {
+                                "value": "enter underworld portal",
+                                "synonyms": [
+                                    "enter through the underworld portal",
+                                    "enter the underworld portal",
+                                    "enter underworld portal"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "64",
+                            "name": {
+                                "value": "quickly teleport to mountain",
+                                "synonyms": [
+                                    "quickly teleport to a mountain",
+                                    "quickly teleport to mountain"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "63",
+                            "name": {
+                                "value": "chance a meeting with company",
+                                "synonyms": [
+                                    "chance a meeting",
+                                    "chance the meeting with company",
+                                    "chance meeting with company",
+                                    "chance a meeting with company"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "60",
+                            "name": {
+                                "value": "towards the warmer parts",
+                                "synonyms": [
+                                    "towards warmer parts",
+                                    "towards the warmer parts"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "59",
+                            "name": {
+                                "value": "towards the colder parts",
+                                "synonyms": [
+                                    "towards colder parts",
+                                    "towards the colder parts"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "58",
+                            "name": {
+                                "value": "cloud castle searched",
+                                "synonyms": [
+                                    "cloud castle is searched",
+                                    "cloud castle searched "
+                                ]
+                            }
+                        },
+                        {
+                            "id": "57",
+                            "name": {
+                                "value": "ignore the queen",
+                                "synonyms": [
+                                    "ignore the queen clara",
+                                    "ignore queen",
+                                    "ignore the queen"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "56",
+                            "name": {
+                                "value": "teleport into forest",
+                                "synonyms": [
+                                    "teleport into forest",
+                                    "teleport into the forest",
+                                    "teleport into forest"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "55",
+                            "name": {
+                                "value": "approach witch with rose",
+                                "synonyms": [
+                                    "approach the witch with a rose",
+                                    "approach witch with rose",
+                                    "approach the witch with rose"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "54",
+                            "name": {
+                                "value": "sleep in a sheltered tree",
+                                "synonyms": [
+                                    "sleep in sheltered tree",
+                                    "sleep in a sheltered tree"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "53",
+                            "name": {
+                                "value": "sleep in a crypt",
+                                "synonyms": [
+                                    "sleep in crypt",
+                                    "sleep in a crypt"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "52",
+                            "name": {
+                                "value": "search the surrounding area",
+                                "synonyms": [
+                                    "search in the surrounding area",
+                                    "search surrounding area",
+                                    "search the surrounding area"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "51",
+                            "name": {
+                                "value": "enter stonehenge portal ",
+                                "synonyms": [
+                                    "enter stonehenge",
+                                    "enter the stonehenge portal",
+                                    "enter stonehenge portal"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "50",
+                            "name": {
+                                "value": "chance loss and leave",
+                                "synonyms": [
+                                    " chance loss and leave",
+                                    "chance the loss and leave"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "49",
+                            "name": {
+                                "value": "stay and search for key",
+                                "synonyms": [
+                                    "stay and search key",
+                                    "stay and search for the key",
+                                    "stay and search for key"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "48",
+                            "name": {
+                                "value": "downwards inside the cave",
+                                "synonyms": [
+                                    "downwards in the cave",
+                                    "downwards inside the cave"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "47",
+                            "name": {
+                                "value": "upwards inside the cave",
+                                "synonyms": [
+                                    "upwards in the cave",
+                                    "upwards inside the cave"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "46",
+                            "name": {
+                                "value": "cross the river by swimming",
+                                "synonyms": [
+                                    "cross river by swimming",
+                                    "cross the river by swimming"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "45",
+                            "name": {
+                                "value": "follow along the river",
+                                "synonyms": [
+                                    "follow along river",
+                                    "follow along the river"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "44",
+                            "name": {
+                                "value": "passageway through the corridor",
+                                "synonyms": [
+                                    "passageway through corridor",
+                                    "passageway through the corridor"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "43",
+                            "name": {
+                                "value": "passageway through the kitchen",
+                                "synonyms": [
+                                    "passageway through the kitchen",
+                                    "passageway through the kitchen"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "42",
+                            "name": {
+                                "value": "right down the tunnel",
+                                "synonyms": [
+                                    "right down tunnel",
+                                    "right down the tunnel"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "41",
+                            "name": {
+                                "value": "left down the tunnel",
+                                "synonyms": [
+                                    "left down tunnel",
+                                    "left down the tunnel"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "40",
+                            "name": {
+                                "value": "fight the knight",
+                                "synonyms": [
+                                    "fight knight",
+                                    "fight the knight"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "39",
+                            "name": {
+                                "value": "explain yourself to knight",
+                                "synonyms": [
+                                    "explain yourself to the knight",
+                                    "explain yourself to knight",
+                                    "explain to the knight"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "38",
+                            "name": {
+                                "value": "find a way from the back",
+                                "synonyms": [
+                                    "find another way from the back",
+                                    "find a way from the back",
+                                    "find a way from back"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "37",
+                            "name": {
+                                "value": "go under castle",
+                                "synonyms": [
+                                    "under the castle",
+                                    "go under the castle",
+                                    "go under castle"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "36",
+                            "name": {
+                                "value": "find another way in",
+                                "synonyms": [
+                                    "another way in",
+                                    "find another way in to castle",
+                                    "find another way inside",
+                                    "find another way",
+                                    "find another way in"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "35",
+                            "name": {
+                                "value": "undo spell with magic",
+                                "synonyms": [
+                                    "undo spell ",
+                                    "undo spell with magic"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "34",
+                            "name": {
+                                "value": "escape the dragon",
+                                "synonyms": [
+                                    "escape dragon",
+                                    "escape the dragon"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "33",
+                            "name": {
+                                "value": "closer to dragon",
+                                "synonyms": [
+                                    "close to dragon",
+                                    "closer to dragon",
+                                    "closer to the dragon"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "32",
+                            "name": {
+                                "value": "land searching first",
+                                "synonyms": [
+                                    "land searching first",
+                                    "land search first"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "31",
+                            "name": {
+                                "value": "cloud castle",
+                                "synonyms": [
+                                    "cloud castle"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "30",
+                            "name": {
+                                "value": "kindly decline",
+                                "synonyms": [
+                                    "kindly decline offer",
+                                    "kindly decline the offer",
+                                    "kindly decline"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "29",
+                            "name": {
+                                "value": "drink seer potion",
+                                "synonyms": [
+                                    "drink the seer potion",
+                                    "drink seer potion"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "28",
+                            "name": {
+                                "value": "hide for now",
+                                "synonyms": [
+                                    "hide ",
+                                    "hide now",
+                                    "hide for now"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "27",
+                            "name": {
+                                "value": "take the map",
+                                "synonyms": [
+                                    "take the map and go",
+                                    "take map",
+                                    "take the map with you",
+                                    "take the map"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "26",
+                            "name": {
+                                "value": "fly to top of castle",
+                                "synonyms": [
+                                    "top of castle",
+                                    "fly to top of castle",
+                                    "fly to the top of the castle"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "25",
+                            "name": {
+                                "value": "front doors",
+                                "synonyms": [
+                                    "front",
+                                    "through the front door",
+                                    "through front door",
+                                    "front door",
+                                    "front doors"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "24",
+                            "name": {
+                                "value": "travel your own way",
+                                "synonyms": [
+                                    "travel your own",
+                                    "travel on your own way",
+                                    "travel your own way",
+                                    "travel on your own"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "23",
+                            "name": {
+                                "value": "join farrah",
+                                "synonyms": [
+                                    "join the witch farrah",
+                                    "join witch diviner",
+                                    "join the witch diviner",
+                                    "join farrah the witch",
+                                    "join farrah"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "22",
+                            "name": {
+                                "value": "northern detour",
+                                "synonyms": [
+                                    "northern detouring",
+                                    "northern detour",
+                                    "go northern detour"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "21",
+                            "name": {
+                                "value": "chance directly east",
+                                "synonyms": [
+                                    "chance directly east",
+                                    "directly east",
+                                    "chance it east",
+                                    "chance it directly east"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "20",
+                            "name": {
+                                "value": "walk to the winter castle",
+                                "synonyms": [
+                                    "walking to the winter castle",
+                                    "walk to winter castle",
+                                    "walking to the winter castle",
+                                    "walk to the winter castle"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "19",
+                            "name": {
+                                "value": "fly to the winter castle",
+                                "synonyms": [
+                                    "flying to the winter castle",
+                                    "flying to winter castle",
+                                    "fly to winter castle",
+                                    "fly to the winter castle"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "18",
+                            "name": {
+                                "value": "check out the wolves",
+                                "synonyms": [
+                                    "check out wolves",
+                                    "check out the wolves"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "17",
+                            "name": {
+                                "value": "fly away",
+                                "synonyms": [
+                                    "fly away from there",
+                                    "fly away from wolves",
+                                    "fly away"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "16",
+                            "name": {
+                                "value": "back towards other path",
+                                "synonyms": [
+                                    "got back towards the other path",
+                                    "go back toward other path",
+                                    "back towards the other path",
+                                    "back toward other path"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "15",
+                            "name": {
+                                "value": "follow fairy direction",
+                                "synonyms": [
+                                    "follow fairy",
+                                    "follow the fairy direction",
+                                    "follow direction of fairy",
+                                    "follow fairy direction"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "14",
+                            "name": {
+                                "value": "turn left in the tree",
+                                "synonyms": [
+                                    "turn left inside the tree",
+                                    "turn left in the tree",
+                                    "turn left in tree"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "13",
+                            "name": {
+                                "value": "turn right in the tree",
+                                "synonyms": [
+                                    "turn right in the tree",
+                                    "turn right inside tree",
+                                    "turn right in tree"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "12",
+                            "name": {
+                                "value": "south",
+                                "synonyms": [
+                                    "walk south",
+                                    "go south",
+                                    "south "
+                                ]
+                            }
+                        },
+                        {
+                            "id": "11",
+                            "name": {
+                                "value": "north",
+                                "synonyms": [
+                                    "go north",
+                                    "north",
+                                    "walk north "
+                                ]
+                            }
+                        },
+                        {
+                            "id": "10",
+                            "name": {
+                                "value": "west",
+                                "synonyms": [
+                                    "walk west",
+                                    "go west",
+                                    "west"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "9",
+                            "name": {
+                                "value": "east",
+                                "synonyms": [
+                                    "walk east",
+                                    "east",
+                                    "go east"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "8",
+                            "name": {
+                                "value": "keep walking",
+                                "synonyms": [
+                                    "keep walking",
+                                    "keep going"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "7",
+                            "name": {
+                                "value": "follow witch",
+                                "synonyms": [
+                                    "follow the witch",
+                                    "follow",
+                                    "follow her",
+                                    "follow witch"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "6",
+                            "name": {
+                                "value": "call out to witch",
+                                "synonyms": [
+                                    "yell out to witch",
+                                    "call out to witch",
+                                    "call witch",
+                                    "call out "
+                                ]
+                            }
+                        },
+                        {
+                            "id": "5",
+                            "name": {
+                                "value": "walk along path",
+                                "synonyms": [
+                                    "walk along",
+                                    "walk along path",
+                                    "along path"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "4",
+                            "name": {
+                                "value": "throw potion",
+                                "synonyms": [
+                                    "throw potion",
+                                    "throw the potion",
+                                    "throw",
+                                    "throw it"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "3",
+                            "name": {
+                                "value": "pick up potion",
+                                "synonyms": [
+                                    "pick up potion",
+                                    "pick up the potion",
+                                    "potion pick it up",
+                                    "pick up",
+                                    "pick it up"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "name": {
+                                "value": "begin",
+                                "synonyms": [
+                                    "begin",
+                                    "begin the game",
+                                    "start the game",
+                                    "start",
+                                    "start game",
+                                    "begin game"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "name": {
+                                "value": "first time",
+                                "synonyms": [
+                                    "first go",
+                                    "first time",
+                                    "first",
+                                    "new",
+                                    "first timer",
+                                    "first time"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "0",
+                            "name": {
+                                "value": "instructions",
+                                "synonyms": [
+                                    "tell me instructions",
+                                    "instructions",
+                                    "instructions please"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
