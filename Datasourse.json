@@ -1,0 +1,34 @@
+{
+	"mixedSceneData": {
+		"properties": {
+			"backgroundImg": "YOUR IMAGE HERE",
+			"listOfDrinks": [
+    {
+      "name": "Instructions",
+      "videoSrc": "YOUR VIDEO HERE",
+      "imgSrc": "YOUR IMAGE HERE",
+      "ingredients": [
+        {
+          "name": "Say Help if you are unsure",
+          "amount": ""
+        },
+        {
+          "name": "Say, Alexa, Begin",
+          "amount": "When you are ready to start"
+        },
+    {
+      "name": "",
+      "videoSrc": "",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+   }
+  ]
+		}
+	}
+}
