@@ -1,0 +1,150 @@
+{
+	"mixedSceneData": {
+		"properties": {
+			"backgroundImg": "YOUR IMAGE HERE",
+			"listOfDrinks": [
+    {
+      "name": "Please rate us 5 stars",
+      "videoSrc": "YOUR VIDEO HERE",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "Say Help if you are unsure",
+          "amount": ""
+        },
+        {
+          "name": "",
+          "amount": ""
+        },
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+          "recipe": ""
+    },
+    {
+      "name": "",
+      "videoSrc": "",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+    },
+    {
+      "name": "",
+      "videoSrc": "YOUR VIDEO HERE",
+      "imgSrc": "YOUR IMAGE HERE",
+      "ingredients": [
+        {
+          "name": "Pick it up to check it out",
+          "amount": ""
+        },
+          {
+          "name": "Pick it up and throw it",
+          "amount": ""
+        },
+          {
+          "name": "Keep walking",
+          "amount": ""
+        },
+            {
+          "name": "Stop and call out",
+          "amount": ""
+        }
+  
+      ],
+          "recipe": "You are travelling along a forest path, the trees forming an arch above you, the air is still, and the sun hangs low. You are headed west. You come across a witch craft bundle along your path, there is a blue magical potion bubbling away, begging to be let out. Curious, you have a choice to make. Do you pick it up to inspect, pick it up and throw it to break it open, keep walking or call out loud to find the witch?"
+    },
+    {
+     "name": "",
+      "videoSrc": "",
+      "imgSrc": "YOUR IMAGE HERE",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+    },
+    {
+      "name": "",
+      "videoSrc": "",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+    },
+    {
+      "name": "",
+      "videoSrc": "",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+    },
+    {
+      "name": "",
+      "videoSrc": "",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+    },
+    {
+      "name": "",
+      "videoSrc": "",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+    },
+    {
+      "name": "",
+      "videoSrc": "",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+    },
+    {
+      "name": "",
+      "videoSrc": "",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+   }
+  ]
+		}
+	}
+}
