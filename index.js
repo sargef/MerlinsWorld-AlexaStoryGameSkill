@@ -19,7 +19,6 @@ const LaunchRequestHandler = {
             type: 'Alexa.Presentation.APL.RenderDocument',
             token: "homepage",
             document: require('./launchrequest.json'),
-            datasources: require('./Datasource.json')
         })
         .getResponse();
     } else {
