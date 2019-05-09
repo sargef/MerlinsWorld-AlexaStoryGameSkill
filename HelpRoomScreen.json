@@ -1,0 +1,150 @@
+{
+	"mixedSceneData": {
+		"properties": {
+			"backgroundImg": "YOUR IMAGE",
+			"listOfDrinks": [
+    {
+      "name": "Instructions",
+      "videoSrc": "YOUR VIDEO",
+      "imgSrc": "YOUR IMAGE",
+      "ingredients": [
+        {
+          "name": "Say Help if you are unsure",
+          "amount": ""
+        },
+        {
+          "name": "Say, Alexa, Begin",
+          "amount": "When you are ready to start"
+        },
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+          "recipe": ""
+    },
+    {
+      "name": "First Time",
+      "videoSrc": "YOUR VIDEO",
+      "imgSrc": "YOUR IMAGE",
+      "ingredients": [
+        {
+          "name": "Say, Alexa, Begin",
+          "amount": "When you are ready to start"
+        }
+      ],
+      "recipe": "."
+    },
+    {
+      "name": "Begin",
+      "videoSrc": "YOUR VIDEO",
+      "imgSrc": "YOUR IMAGE",
+      "ingredients": [
+        {
+          "name": "Pick it up to check it out",
+          "amount": ""
+        },
+          {
+          "name": "Pick it up and throw it",
+          "amount": ""
+        },
+          {
+          "name": "Keep walking",
+          "amount": ""
+        },
+            {
+          "name": "Stop and call out",
+          "amount": ""
+        }
+  
+      ],
+          "recipe": ""
+    },
+    {
+     "name": "",
+      "videoSrc": "",
+      "imgSrc": "YOUR IMAGE,
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+    },
+    {
+      "name": "",
+      "videoSrc": "",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+    },
+    {
+      "name": "",
+      "videoSrc": "",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+    },
+    {
+      "name": "",
+      "videoSrc": "",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+    },
+    {
+      "name": "",
+      "videoSrc": "",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+    },
+    {
+      "name": "",
+      "videoSrc": "",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+    },
+    {
+      "name": "",
+      "videoSrc": "",
+      "imgSrc": "",
+      "ingredients": [
+        {
+          "name": "",
+          "amount": ""
+        }
+      ],
+      "recipe": ""
+   }
+  ]
+		}
+	}
+}
